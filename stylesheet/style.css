@@ -48,16 +48,28 @@ p {
   color: #ff900e;
 }
 
+/* share style */
+
 .container {
   max-width: 1140px;
   margin: 0 auto;
   padding: 0 10px;
 }
 
-/* header */
-.logo {
-  font-size: 35px;
+.btn-primary {
+  background-color: #ff900e;
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+  border-radius: 8px;
+  border: none;
+  padding: 20px 25px;
 }
+
+img {
+  width: 100%;
+}
+/* header */
 
 .header {
   background: rgba(255, 144, 14, 0.1);
@@ -86,4 +98,16 @@ p {
   text-decoration: none;
   font-size: 18px;
   color: #727272;
+}
+
+/* banner */
+
+.banner-content {
+  max-width: 862px;
+  margin: 100px auto 50px auto;
+  text-align: center;
+}
+
+.banner-content p {
+  margin: 20px 0;
 }

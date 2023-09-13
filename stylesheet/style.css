@@ -47,3 +47,43 @@ p {
 .yellow {
   color: #ff900e;
 }
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+/* header */
+.logo {
+  font-size: 35px;
+}
+
+.header {
+  background: rgba(255, 144, 14, 0.1);
+  padding: 50px 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar > ul {
+  display: flex;
+}
+.navbar li {
+  list-style: none;
+  margin-right: 20px;
+}
+
+.navbar a:hover {
+  color: #ff900e;
+}
+
+.navbar a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #727272;
+}

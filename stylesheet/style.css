@@ -12,6 +12,7 @@
 }
 
 /* typography */
+
 h1,
 h2,
 h3 {
@@ -26,6 +27,7 @@ h1 {
 h2 {
   font-size: 45px;
 }
+
 h3 {
   font-size: 20px;
   font-weight: 600;
@@ -49,6 +51,9 @@ p {
 }
 
 /* share style */
+img {
+  width: 100%;
+}
 
 .container {
   max-width: 1140px;
@@ -64,11 +69,13 @@ p {
   border-radius: 8px;
   border: none;
   padding: 20px 25px;
+  cursor: pointer;
 }
 
-img {
-  width: 100%;
+.btn-primary:hover {
+  background-color: #727272;
 }
+
 /* header */
 
 .header {
@@ -110,4 +117,47 @@ img {
 
 .banner-content p {
   margin: 20px 0;
+}
+
+/* small device */
+
+@media screen and (max-width: 576px) {
+  h1 {
+    font-size: 45px;
+  }
+  h2 {
+    font-size: 35px;
+  }
+  .header {
+    padding: 20px 0;
+  }
+  .navbar {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .banner-content {
+    margin: 40px auto 20px auto;
+  }
+
+  .btn-primary {
+    font-size: 1rem;
+    padding: 12px 24px;
+  }
+}
+
+/* medium device */
+
+@media screen and (min-width: 575px) and (max-width: 960px) {
+  h1 {
+    font-size: 55px;
+  }
+  .navbar {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .btn-primary {
+    font-size: 1rem;
+    padding: 15px 30px;
+  }
 }

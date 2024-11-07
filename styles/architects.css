@@ -216,6 +216,28 @@ header {
 .facts-content h2 {
   margin-bottom: 25px;
 }
+
+/* Our Sponspors */
+.sponspors-items{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  gap: 80px;
+
+}
+.sponspors-items img{
+  width: 160px;
+  filter: grayscale()
+}
+
+.sponspors-content {
+  text-align: center;
+}
+.sponspors-content h2{
+  margin-bottom: 20px;
+}
+
 /* small device responsive */
 
 @media screen and (max-width: 576px) {

@@ -27,7 +27,7 @@ img {
 
 p {
   font-size: 1rem;
-  color: 727272;
+  color: #727272;
 }
 
 h1 {
@@ -218,26 +218,33 @@ header {
 }
 
 /* Our Sponspors */
-.sponspors-items{
+.sponspors-items {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   margin-top: 50px;
   gap: 80px;
-
 }
-.sponspors-items img{
+.sponspors-items img {
   width: 160px;
-  filter: grayscale()
+  filter: grayscale();
 }
 
 .sponspors-content {
   text-align: center;
 }
-.sponspors-content h2{
+.sponspors-content h2 {
   margin-bottom: 20px;
 }
 
+/* footer */
+.footer {
+  background-color: #fff4e7;
+  font-size: 20px;
+  text-align: center;
+  padding: 40px;
+  color: #424242;
+}
 /* small device responsive */
 
 @media screen and (max-width: 576px) {
